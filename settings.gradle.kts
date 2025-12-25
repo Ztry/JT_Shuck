@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Shuck"
 include(":app")
+include(":library")
  

@@ -47,8 +47,8 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     
-    // 引用本地aar包
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar"))))
+    // 引用 jt-shuck-library
+    implementation(libs.jt.shuck.library)
     
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
